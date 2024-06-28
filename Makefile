@@ -1,5 +1,5 @@
 PKG_NAME := pypi-dep_logic
-URL = https://files.pythonhosted.org/packages/21/d5/c365826c3d0b65b9cc273bdf2e99022ada232fb95502f4efd98a8f9e31aa/dep_logic-0.2.0.tar.gz
+URL = https://files.pythonhosted.org/packages/3a/08/b12c393c05996c9c1f33d39f069755d870a95f85beb18670f196b0c0b94a/dep_logic-0.3.0.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
