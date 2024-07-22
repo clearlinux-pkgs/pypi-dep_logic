@@ -6,10 +6,10 @@
 # autospec commit: 1bec16f
 #
 Name     : pypi-dep_logic
-Version  : 0.4.3
-Release  : 10
-URL      : https://files.pythonhosted.org/packages/fa/f3/111eff9a04e309d2cea122d083b3646229f8c5231a3a11a3155a304b1909/dep_logic-0.4.3.tar.gz
-Source0  : https://files.pythonhosted.org/packages/fa/f3/111eff9a04e309d2cea122d083b3646229f8c5231a3a11a3155a304b1909/dep_logic-0.4.3.tar.gz
+Version  : 0.4.4
+Release  : 11
+URL      : https://files.pythonhosted.org/packages/a7/f8/8be6fa95351ddf624a5c15c159bc1f6e2f4cb7ca899835911d64d915d0eb/dep_logic-0.4.4.tar.gz
+Source0  : https://files.pythonhosted.org/packages/a7/f8/8be6fa95351ddf624a5c15c159bc1f6e2f4cb7ca899835911d64d915d0eb/dep_logic-0.4.4.tar.gz
 Summary  : Python dependency specifications supporting logical operations
 Group    : Development/Tools
 License  : Apache-2.0
@@ -57,10 +57,10 @@ python3 components for the pypi-dep_logic package.
 
 
 %prep
-%setup -q -n dep_logic-0.4.3
-cd %{_builddir}/dep_logic-0.4.3
+%setup -q -n dep_logic-0.4.4
+cd %{_builddir}/dep_logic-0.4.4
 pushd ..
-cp -a dep_logic-0.4.3 buildavx2
+cp -a dep_logic-0.4.4 buildavx2
 popd
 
 %build
@@ -68,7 +68,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1721412105
+export SOURCE_DATE_EPOCH=1721662127
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
