@@ -7,7 +7,7 @@
 #
 Name     : pypi-dep_logic
 Version  : 0.4.9
-Release  : 14
+Release  : 15
 URL      : https://files.pythonhosted.org/packages/46/c6/810b34258a5f4be719a74f011e4b6a3bf4fd1fe38a400fe2682f3d87576f/dep_logic-0.4.9.tar.gz
 Source0  : https://files.pythonhosted.org/packages/46/c6/810b34258a5f4be719a74f011e4b6a3bf4fd1fe38a400fe2682f3d87576f/dep_logic-0.4.9.tar.gz
 Summary  : Python dependency specifications supporting logical operations
